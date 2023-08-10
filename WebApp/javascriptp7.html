@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <ul>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+        </ul>
+
+        <p id="demo" style="color: red;"></p>
+
+        <p>paragrap-1</p>
+        <p>paragrap-2</p>
+        <script>
+            const c1=document.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML=c1[1].innerHTML;
+        </script>
+    </body>
+</html>
