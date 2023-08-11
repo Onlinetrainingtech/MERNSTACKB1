@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    
+    <body>
+        <p id="d1"></p>
+        <script>
+            var age=parseInt(prompt("Enter the age is::"))
+            if(age>=61)
+            {
+                var sal=parseInt(prompt("Enter the sal is::"))
+                if(sal>=20000)
+                {
+                    bns=sal+500
+                    document.getElementById("d1").innerHTML=bns;
+                }
+                else
+                {
+                    bns=sal+1000
+                    document.getElementById("d1").innerHTML=bns;
+                }
+            }
+            else
+            {
+                document.getElementById("d1").innerHTML="Age is low";
+            }
+        </script>
+    </body>
+</html>
