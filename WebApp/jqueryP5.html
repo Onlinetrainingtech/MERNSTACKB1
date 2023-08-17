@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#d1").fadeToggle();
+                    $("#d2").fadeToggle("slow")
+                });
+            });
+        </script>
+    </head>
+    <body>
+      <button>ClickHereFadeout</button>
+      <button>ClickHereFadeIn</button>
+      <div id="d1" style="width: 70px;height: 70px;background-color: blue;">
+
+      </div><br>
+      <div id="d2" style="width: 70px;height: 70px;background-color:aquamarine">
+
+      </div>
+    </body>
+</html>
