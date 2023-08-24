@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        Your value is global::<p id="d1"></p>
+        Your value is local::<p id="d2"></p>
+        <script>
+            let x=10;//global variable
+            {
+                let x=200;
+                document.getElementById("d2").innerHTML=x;
+            }
+            document.getElementById("d1").innerHTML=x;
+        </script>
+    </body>
+</html>

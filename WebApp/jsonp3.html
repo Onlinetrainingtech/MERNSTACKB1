@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 id="d1"></h1>
+        <script>
+            const txt='{"name":"azar","birth":"2023-08-22","city":"hyd"}'
+            const obj=JSON.parse(txt);
+            obj.birth=new Date(obj.birth);
+            document.getElementById("d1").innerHTML=obj.name+","+obj.birth;
+        </script>
+    </body>
+</html>
