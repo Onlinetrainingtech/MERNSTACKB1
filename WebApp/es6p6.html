@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p id="d1"></p>
+        <script>
+            class Sample
+            {
+                constructor(name,year)
+                {
+                    this.name=name;
+                    this.year=year;
+                }
+            }
+            const myobj1=new Sample("azar",1989);
+            const myobj2=new Sample("mohamed",2013);
+            document.getElementById("d1").innerHTML=myobj1.name+","+myobj2.name;
+        </script>
+    </body>
+</html>
