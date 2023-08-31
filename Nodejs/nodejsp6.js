@@ -1,0 +1,9 @@
+const os=require('os')
+console.log("Os homedire::\n",os.homedir())
+console.log("Os hostname::\n",os.platform())
+console.log("Os platform::\n",os.release())
+console.log("Os release::\n",os.tmpdir())
+console.log("Os totalmem::\n",os.totalmem())
+console.log("Os type::\n",os.type());
+console.log("Os uptime::\n",os.userInfo);
+console.log("Os cpus::\n",os.cpus());
